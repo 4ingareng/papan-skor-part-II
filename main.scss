@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+
+    #content {
+        box-shadow: 1px 1px 4px 0 gray;
+        text-align: center;
+        width: 50%;
+        margin: 65px auto;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: rgb(181, 223, 181);
+
+        #TimeSection {
+            margin-bottom: 50px;
+        }
+
+        #scoreSection {
+            text-align: center;
+            overflow: auto;
+
+
+            section {
+                padding: 15px;
+                box-sizing: border-box;
+                width: 35%;
+            }
+
+            .home {
+                float: left;
+                margin-left: 49px;
+                background-color: salmon;
+                border-radius: 3px;
+                box-sizing: border-box;
+                transition: 0.5s;
+
+                .score {
+
+                    h1 {
+                        margin-top: 0;
+                    }
+                }
+
+            }
+
+            .home:hover {
+                cursor: pointer;
+                transform: translate(20px);
+            }
+
+            .away {
+                float: right;
+                margin-right: 49px;
+                background-color: salmon;
+                border-radius: 3px;
+                box-sizing: border-box;
+                transition: 0.5s;
+
+                .score {
+                    h1 {
+                        margin-top: 0;
+                    }
+                }
+
+            }
+
+            .away:hover {
+                cursor: pointer;
+                transform: translate(-20px);
+            }
+        }
+    }
+
+    #inputSection {
+        text-align: center;
+        margin-top: 20px;
+
+        input {
+            width: 200px;
+        }
+
+        .homeTimInput {
+            margin-right: 10px;
+        }
+
+        .nameInput {
+            line-height: 20px;
+            background-color: salmon;
+            border-radius: 10px;
+            box-sizing: border-box;
+            border: none;
+            border-color: white;
+            cursor: pointer;
+            padding: 4px;
+
+        }
+
+        .nameInput:hover {
+            box-shadow: 0 0 4px 0 white;
+        }
+
+        .awayTimInput {
+            margin-left: 10px;
+        }
+    }
+
+
+}

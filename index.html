@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>score board project</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div id="content">
+        <div id="TimeSection">
+            <h1>Time</h1>
+            <form name="timer">
+                <input class="hour-input" type="number" style="width: 30px;">
+                <input class="minute-input" type="number" style="width: 30px;">
+                <button class="minute-btn"
+                    style=" cursor: pointer;background-color: salmon; border: none; border-radius: 5px; padding: 5px;">Time
+                    Input</button>
+
+            </form>
+            <h2> <span class="minutes">00</span> : <span class="seconds">00</span></h2>
+        </div>
+        <div id="scoreSection">
+            <section class="home">
+                <h1>Home</h1>
+                <div class="score">
+                    <h1 class="home-number">0</h1>
+                    <h3 class="homeNameTeam">Team Name</h3>
+                </div>
+            </section>
+            <h1 style="display: inline-block; ">VS</h1>
+            <section class="away">
+                <h1>Away</h1>
+                <div class="score">
+                    <h1 class="away-number">0</h1>
+                    <h3 class="awayNameTeam">Team Name</h3>
+                </div>
+            </section>
+        </div>
+        <div id="inputSection">
+            <div class="home">
+                <form name="inputTeam">
+                    <input type="text" class="homeTimInput" placeholder="Masukan Nama Tim Kandang">
+                    <button class="nameInput">Submit</button>
+                    <input type="text" class="awayTimInput" placeholder="Masukan Nama Tim Tandang">
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

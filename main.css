@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Poppins;
+}
+
+body #content {
+  -webkit-box-shadow: 1px 1px 4px 0 gray;
+          box-shadow: 1px 1px 4px 0 gray;
+  text-align: center;
+  width: 50%;
+  margin: 65px auto;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #b5dfb5;
+}
+
+body #content #TimeSection {
+  margin-bottom: 50px;
+}
+
+body #content #scoreSection {
+  text-align: center;
+  overflow: auto;
+}
+
+body #content #scoreSection section {
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 35%;
+}
+
+body #content #scoreSection .home {
+  float: left;
+  margin-left: 49px;
+  background-color: salmon;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body #content #scoreSection .home .score h1 {
+  margin-top: 0;
+}
+
+body #content #scoreSection .home:hover {
+  cursor: pointer;
+  -webkit-transform: translate(20px);
+          transform: translate(20px);
+}
+
+body #content #scoreSection .away {
+  float: right;
+  margin-right: 49px;
+  background-color: salmon;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body #content #scoreSection .away .score h1 {
+  margin-top: 0;
+}
+
+body #content #scoreSection .away:hover {
+  cursor: pointer;
+  -webkit-transform: translate(-20px);
+          transform: translate(-20px);
+}
+
+body #inputSection {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body #inputSection input {
+  width: 200px;
+}
+
+body #inputSection .homeTimInput {
+  margin-right: 10px;
+}
+
+body #inputSection .nameInput {
+  line-height: 20px;
+  background-color: salmon;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  border-color: white;
+  cursor: pointer;
+  padding: 4px;
+}
+
+body #inputSection .nameInput:hover {
+  -webkit-box-shadow: 0 0 4px 0 white;
+          box-shadow: 0 0 4px 0 white;
+}
+
+body #inputSection .awayTimInput {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=main.css.map */
